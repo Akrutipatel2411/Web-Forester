@@ -1,0 +1,204 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.head-nav {
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    position: fixed;
+}
+
+.head-list {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+
+}
+
+.col-list-1 {
+    width: 41.66%;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: auto;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.nav-item-left {
+
+    list-style: none;
+    float: left;
+
+}
+
+.item-list {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-family: sans-serif;
+
+}
+
+.nav-list {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.col-img {
+    width: 16.66%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    right: 0;
+    bottom: 0;
+    top: 30px;
+    text-align: center;
+
+}
+
+.nav-item-right {
+    float: right;
+    list-style: none;
+    
+
+}
+.col-list-soc {
+    width: 41.66%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    float: left;
+
+}
+.header
+{
+    
+    background-image: url(../images/forest.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.forest-content
+{
+    width: 40%;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    top: 35%;
+    left: 0;
+    position: absolute;
+    color: white;
+}
+.we-cont
+{
+    text-align: center;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.for-cont
+{
+    text-align: center;
+    font-size: 90px;
+    
+}
+.un-cont
+{
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    margin: 0;
+    padding: 0;
+}
+.button-explore
+{
+    margin: auto;
+    width: 35%;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    text-align: center;
+
+}
+.now
+{
+     color: white;
+     background-color: #BED094;
+     border-radius: 50px;
+     padding: 10px 20px;
+     border: 1px solid transparent;
+}
+.bgcolor
+{
+    background-color: white;
+    width: 100%;
+    position: relative;
+}
+.our-article
+{
+    width: 50%;
+    margin: auto;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+}
+.h5-story
+{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: black;
+}
+.digi-pera
+{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 15px;
+}
+.inter-h5
+{
+    color: #aeaeae;
+    display: inline-block;
+}
+.read
+{
+    color:#aeaeae;
+    margin-left: 10px;
+}
+.bggray
+{
+    background-color: #f2f4ec;
+    width: 100%;
+}
+.container
+{
+    width: 70%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    color:#aeaeae; 
+}
+
+
