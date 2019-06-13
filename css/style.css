@@ -49,6 +49,7 @@ ul {
     text-align: center;
     font-size: 10px;
     font-family: sans-serif;
+    text-decoration: none;
 
 }
 
@@ -89,6 +90,7 @@ ul {
 {
     
     background-image: url(../images/forest.jpg);
+    background-attachment: fixed;
     width: 100%;
     height: 100%;
     background-position: center center;
@@ -97,10 +99,11 @@ ul {
 .forest-content
 {
     width: 40%;
+    height: 250px;
     margin: auto;
     right: 0;
     bottom: 0;
-    top: 35%;
+    top: 0;
     left: 0;
     position: absolute;
     color: white;
@@ -130,23 +133,18 @@ h1,h2,h3,h4,h5,h6
 }
 .button-explore
 {
-    margin: auto;
-    width: 35%;
-    top: 20px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    position: relative;
+
     text-align: center;
+    padding-top: 30px;
 
 }
 .now
 {
      color: white;
      background-color: #BED094;
-     border-radius: 50px;
-     padding: 10px 20px;
-     border: 1px solid transparent;
+     border-radius: 35px;
+     padding: 15px 35px;
+    text-decoration: none;
 }
 .bgcolor
 {
@@ -158,11 +156,7 @@ h1,h2,h3,h4,h5,h6
 {
     width: 50%;
     margin: auto;
-    top: 100px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    position: absolute;
+    padding: 100px 0px;
     text-align: center;
 }
 .h5-story
@@ -185,20 +179,247 @@ h1,h2,h3,h4,h5,h6
 .read
 {
     color:#aeaeae;
-    margin-left: 10px;
+    padding-left: 10px;
 }
 .bggray
 {
     background-color: #f2f4ec;
     width: 100%;
+    padding: 30px;
 }
 .container
 {
-    width: 70%;
+    width: 80%;
     padding-right: 15px;
     padding-left: 15px;
     margin: auto;
     color:#aeaeae; 
 }
+.heading
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+}
+.col
+{
+    color: black;
+}
+.ser-color
+{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 10px;
+    color: black;
+}
+.gallery
+{
+    overflow: auto;
+    width: 100%;
+
+}
+.photo-gal
+{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    
+    
+}
+.gall-pic-left
+{
+    width: 100%;
+    height: 185px;
+    background-image: url(../images/forest.jpg);
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    position: relative;
+}
+.gall-pic-middle
+{
+    height: 185px;
+    width: 100%;
+    background-image: url(../images/forest.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+.gall-pic-right
+{
+    height: 185px;
+    width: 100%;
+    background-image: url(../images/forest.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+.small-icon
+{
+    width: 40%;
+    margin: auto;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.gall-cont
+{
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.07);
+    color: black;
+}
+.col-blk
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.qua-cont
+{
+    width: 28%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color:#aeaeae; 
+}
+.get-button
+{
+    text-align: center;
+    border: 1px solid #aeaeae;
+    border-radius: 30px;
+    color: black;
+    background-color: #f2f4ec;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    
+}
+.qua-top
+{
+    padding: 40px;
+}
+.section-gal
+{
+    width: 100%;
+    background-color: white;
+    padding-top: 140px;
+    position: relative;
+    
+}
+
+.ul-li
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    
+}
+.gall-list
+{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    
+}
+.gall-ref
+{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.gall-item
+{
+    list-style: none;
+}
+.pitcher-gall
+{
+    width: 100%;
+    overflow: auto;
+    
+}
+.pitcher-list
+{
+    width: 33.33%;
+    float: left;
+    padding: 5px;
+}
+.first-pic
+{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/for-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sec-pic
+{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.third-pic
+{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.four-pic
+{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fifth-pic
+{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.six-pic
+{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.achivments
+{
+    width: 100%;
+    background-color:#aeaeae;
+    position: relative;
+}
+.achive-we
+{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.icon-achive
+
+{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+
+
 
 
