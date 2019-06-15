@@ -400,25 +400,95 @@ h1,h2,h3,h4,h5,h6
     background-size: cover;
     background-position: center;
 }
-.achivments
+.achivements
 {
     width: 100%;
-    background-color:#aeaeae;
+    background-color: #f2f4ec;
     position: relative;
 }
 .achive-we
 {
-    width: 80%;
+    width: 70%;
     margin: auto;
-    overflow: auto;
+    overflow: auto; 
+    padding: 50px 0px;
+    
 }
 .icon-achive
 
 {
     width: 33.33%;
     float: left;
-    padding: 15px;
+    padding: 20px;
+    
+    
 }
+.achive-table
+{
+    width: 100%;
+    color: black;
+}
+.font-small
+{
+    font-size: 8px;
+    font-family: sans-serif;
+}
+.pera
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    
+}
+.table-cont
+{
+    padding-left: 10px 20px;
+}
+.section-team
+{
+    width: 100%;
+    background-color: white;
+    padding: 80px;
+}
+
+.team-picture
+{
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+}
+.team-port
+{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.pic-one
+{
+    width: 100%;
+    height: 280px;
+    background-image: url(../images/first-member.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.pic-two
+{
+    width: 100%;
+    height: 280px;
+    background-image: url(../images/2nd-member.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.pic-three
+{
+    width: 100%;
+    height: 280px;
+    background-image: url(../images/3rd-member.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 
 
 
