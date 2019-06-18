@@ -566,6 +566,61 @@ test-rev
    font-size: 45px;
     font-family:  "Montserrat";
 }
+.social-sec
+{   
+    width: 60%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    
+ 
+}
+.social-sec-icons
+{
+    width: 100%;
+    overflow: auto;
+    padding: 20px 20px;
+}
+
+.social-icons-list
+{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.form-section
+{
+    width: 80%;
+    background-color: lightblue;
+    overflow: auto;
+    text-align: left;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.location
+{
+    width: 33.33%;
+    float: left;
+    background-color: lightcoral;
+    padding: 60px 60px;
+    
+}
+.get-size
+{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.get-left
+{
+    padding: 30px 20px;
+}
+.feedback
+{
+    width: 60%;
+    float: left;
+    background-color: cadetblue;
+}
 
 
 
