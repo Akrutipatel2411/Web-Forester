@@ -49,8 +49,10 @@ ul {
     color: white;
     text-align: center;
     font-size: 10px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
 
 }
 
@@ -100,7 +102,7 @@ ul {
 }
 .forest-content
 {
-    width: 40%;
+    width: 60%;
     height: 250px;
     margin: auto;
     right: 0;
@@ -114,19 +116,29 @@ ul {
 {
     text-align: center;
     font-size: 10px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
 }
 .for-cont
 {
     text-align: center;
-    font-size: 90px;
-    
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 1;
+    font-family: "peace sans";
+    letter-spacing: .5px;
+/*        text-transform: uppercase*/
 }
 .un-cont
 {
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: 200;
+    line-height: 1.65em;
+    padding: 0px 50px;
+    color: white;
 }
 h1,h2,h3,h4,h5,h6
 {
@@ -139,6 +151,7 @@ h1,h2,h3,h4,h5,h6
     text-align: center;
     padding-top: 30px;
     ;
+    
 
 }
 .now
@@ -146,9 +159,14 @@ h1,h2,h3,h4,h5,h6
      color: white;
      background-color: #BED094;
      border-radius: 35px;
-     padding: 10px 30px;
+     padding: 17px 37px;
     text-decoration: none;
-    display: inline-block
+    display: inline-block;
+    letter-spacing: 1.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 10.5px;
+    line-height: 1;
 }
 .bgcolor
 {
@@ -158,7 +176,7 @@ h1,h2,h3,h4,h5,h6
 }
 .our-article
 {
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding: 100px 0px;
     text-align: center;
@@ -166,24 +184,42 @@ h1,h2,h3,h4,h5,h6
 .h5-story
 {
     font-size: 10px;
-    font-family: sans-serif;
-    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, .85);
+    margin-bottom: 15px;
 }
 .digi-pera
 {
     font-size: 20px;
     color: black;
     margin-bottom: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    line-height: 1.55em;
 }
 .inter-h5
 {
     color: #aeaeae;
     display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-bottom: 10px;
 }
 .read
 {
     color:#aeaeae;
-    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.6em;
+    
 }
 .bggray
 {
@@ -193,7 +229,7 @@ h1,h2,h3,h4,h5,h6
 }
 .container
 {
-    width: 80%;
+    width: 90%;
     padding-right: 15px;
     padding-left: 15px;
     margin: auto;
@@ -206,16 +242,25 @@ h1,h2,h3,h4,h5,h6
     text-align: center;
     padding: 40px;
 }
-.col
+.col-h5
 {
     color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    
 }
 .ser-color
 {
-    font-size: 30px;
-    font-family: sans-serif;
-    padding: 10px;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    font-weight: 600;
     color: black;
+    line-height: 1.2em;
 }
 .gallery
 {
@@ -264,7 +309,7 @@ h1,h2,h3,h4,h5,h6
 }
 .small-icon
 {
-    width: 40%;
+    width: 10%;
     margin: auto;
     position: absolute;
     top: 70px;
@@ -280,15 +325,41 @@ h1,h2,h3,h4,h5,h6
     box-shadow: 0px 0px 30px rgba(0,0,0,0.07);
     color: black;
 }
+.web-h2
+{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.1em;
+    font-family:  'Montserrat', sans-serif;
+    letter-spacing: -0.5px;
+    margin-bottom: 5px;
+}
 .col-blk
 {
-    font-size: 12px;
-    font-family: sans-serif;
-    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.65em;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 30px;
+}
+.dis
+{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.ser-dis
+{
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 .qua-cont
 {
-    width: 40%;
+    width: 30%;
     margin: auto;
     padding: 10px;
     text-align: center;
@@ -299,18 +370,29 @@ h1,h2,h3,h4,h5,h6
     text-align: center;
     border: 1px solid #aeaeae;
     border-radius: 30px;
-    color: black;
+    color: rgba(0, 0, 0, .85);
     background-color: #f2f4ec;
-    padding: 10px 30px;
+    padding: 17px 37px;
     font-size: 10px;
-    font-family: sans-serif;
+    font-family:  'Montserrat', sans-serif;
     margin-top: 10px;
     text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 10.5px;
+    line-height: 1;
+    display: inline-block;
+    
     
 }
 .qua-top
 {
-    padding: 40px;
+    margin-bottom: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6em;
+    
 }
 .section-gal
 {
@@ -331,7 +413,7 @@ h1,h2,h3,h4,h5,h6
 .gall-list
 {
     display: inline-block;
-    padding: 10px;
+    padding: 10px 0px;
     text-align: center;
     
 }
@@ -340,11 +422,18 @@ h1,h2,h3,h4,h5,h6
     text-decoration: none;
     color: black;
     font-size: 10px;
-    font-family: sans-serif;
+    font-family:'Montserrat', sans-serif;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 7px 13px;
+    
 }
 .gall-item
 {
     list-style: none;
+    margin-bottom: 30px;
 }
 .pitcher-gall
 {
@@ -414,7 +503,7 @@ h1,h2,h3,h4,h5,h6
 }
 .achive-we
 {
-    width: 70%;
+    width: 80%;
     margin: auto;
     overflow: auto; 
     padding: 50px 0px;
@@ -425,7 +514,8 @@ h1,h2,h3,h4,h5,h6
 {
     width: 33.33%;
     float: left;
-    padding: 20px;
+    padding: 10px;
+    margin: 55px 0px;
     
     
 }
@@ -436,13 +526,19 @@ h1,h2,h3,h4,h5,h6
 }
 .font-small
 {
-    font-size: 8px;
-    font-family: sans-serif;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 .pera
 {
-    font-size: 12px;
-    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 10px;
     
 }
 .table-cont
@@ -499,7 +595,7 @@ h1,h2,h3,h4,h5,h6
 }
 .section-number
 {
-    width: 70%;
+    width: 80%;
     margin: auto;
     overflow: auto;
     padding: 50px 15px;
@@ -509,7 +605,14 @@ h1,h2,h3,h4,h5,h6
 {
     width: 25%;
     float: left;
+    padding: 0px 20px;
     
+    
+}
+.pro-sec-num
+{
+    margin: 30px 0px;
+    width: 100%;
 }
 .num
 {
@@ -518,6 +621,9 @@ h1,h2,h3,h4,h5,h6
 .num-format
 {
    font-size: 65px;
+    font-weight: 600;
+    line-height: 1.2em;
+    letter-spacing: -1px;
     font-family: "Montserrat";
     color: white;
     text-align: center;
@@ -526,17 +632,21 @@ h1,h2,h3,h4,h5,h6
 {
     color: white;
     font-size: 18px;
-    font-family: "Nunito Sans";
+    font-weight: 200;
+    line-height: 1.65em;
+    font-family: 'Nunito Sans', sans-serif;
     text-align: center;
     
 }
 .cont-txt
 {
     font-size: 14px;
-    font-family: "Nunito Sans";
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.6em;
     text-align: center;
-    padding: 0px 30px;
+    margin-bottom: 30px;
     color: white;
+    font-weight: 300;
 }
 .section-review
 {
@@ -557,17 +667,28 @@ h1,h2,h3,h4,h5,h6
     color: white;
     text-align: center;
 }
-test-rev
+.test-rev
 {
     
     font-size: 10px;
-    font-family:"Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    font-family:'Montserrat', sans-serif;
+    margin-bottom: 5px;
     
 }
 .color-rev
 {
    font-size: 45px;
-    font-family:  "Montserrat";
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family:  'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+.color-txt-rev
+{
+    font: 200 18px/1.65em 'Nunito Sans', sans-serif;
+    margin-bottom: 20px;
 }
 .social-sec
 {   
@@ -604,14 +725,17 @@ test-rev
 {
     width: 33.33%;
     float: left;
-    padding: 50px 50px;
+    padding: 0px 15px;;
     
 }
 .get-size
 {
-    font-family: sans-serif;
-    font-size: 35px;
+    font-family:  'Montserrat',sans-serif;
+    line-height: 1.2em;
+    font-size: 45px;
     margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: 600;
 }
 .get-left
 {
@@ -629,27 +753,33 @@ test-rev
 .font-col
 {
     font-size: 10px;
-    font-family: sans-serif;
+    font-weight: 600;
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1;
     padding-bottom: 5px;
+    color: rgba(0, 0, 0, .85);
     
 }
 .font-col-p
 {
-    font-family: sans-serif;
-    font-size: 12px;
+        font: 400 14px/1.6em 'Nunito Sans', sans-serif;
+    color: rgba(0, 0, 0, .85);
+    margin-bottom: 10x;
+    
+    
 }
 
 .feedback
 {
     width: 66.66%;
     float: left;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0px 15px;
 }
 .details-form
 {
    width: 100%;
-    padding: 50px 50px;
+/*    padding: 20px 20px;*/
    
 }
 .detail
@@ -660,8 +790,7 @@ test-rev
     border-radius: 2px;
     padding: 15px 18px;
     color: #555;
-    font-family: sans-serif;
-    font-size: 11px;
+        font: 400 14px/1.6em 'Nunito Sans', sans-serif;
     
     
 }
@@ -674,7 +803,7 @@ test-rev
     width: 100%;
     height: 40px;
     top: 15px;
-    position: relative;
+/*    position: relative;*/
     
     
 }
@@ -682,11 +811,13 @@ test-rev
 {
    border: 1px solid rgba(0,0,0,0.15);
     color: rgba(0,0,0,0.85);
-    padding: 17px 30px;
-    font-family: sans-serif;
-    font-size: 12px;
+    padding: 17px 37px;
+    font: 600 10.5px/1 'Montserrat', sans-serif;
     border-radius: 50px;
-    text-decoration: none
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    
 }
 .map-sec
 {
@@ -733,7 +864,7 @@ test-rev
     padding-right: 15px;
     overflow: auto;
     float: left;
-    width: 65%;
+    width: 80%;
     font-size: 12px;
 }
 .footer-logo-copy
@@ -757,6 +888,15 @@ test-rev
 {
     color: white;
     font-size: 12px;
+}
+.foot-pera-txt
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 10px;
+    display: inline-block
 }
 
 
